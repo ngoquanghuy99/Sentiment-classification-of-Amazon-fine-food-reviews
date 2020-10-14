@@ -33,7 +33,7 @@ def process(text):
   # remove hyperlinks
   text = re.sub(r'http\S+', '', text)
   # remove special characters and punctuation
-  text = re.sub('[^a-z0-9 \.]', '', text)
+  text = re.sub('[^a-z ]', '', text)
   # split and remove stopwords
   words = [word for word in text.split() if word == 'not' or not word in stop_words]
   words_pos = pos_tag(words)
