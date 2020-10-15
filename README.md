@@ -8,8 +8,8 @@ In this implementation, i used pretrained word embeddings [GloVe 100d](https://n
 [Download model](https://github.com/ngoquanghuy99/Sentiment-classificatioin-of-Amazon-fine-food-reviews/blob/main/models/1stmodel.h5)
  *label* |*precision* | *recall* | *f1-score* | *support* | 
  | :--- | :--- | :--- | :--- | :---
- 0 | 0.76 | 0.77 | 0.76| 11365
- 1 | 0.96 | 0.95 | 0.96 | 61417 |
+ 0 | 0.79 | 0.73 | 0.76| 11394
+ 1 | 0.95 | 0.96 | 0.96 | 61388 |
   | | | | | 
   *accuracy* |  |  | 0.93 | 72782 | 
   
@@ -25,9 +25,9 @@ pip3 install requirements.txt
 ```bash
 python train.py
 ```
-Accuracy graph:
+#### Accuracy graph:
 ![](graphs/acc_graph.PNG)
-Loss graph:
+#### Loss graph:
 ![](graphs/loss_graph.PNG)
 
 Fine tuning model by changing hyperparameters in `config.py`
