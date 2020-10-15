@@ -25,6 +25,11 @@ pip3 install requirements.txt
 ```bash
 python train.py
 ```
+Accuracy graph:
+![](graphs/acc_graph.PNG)
+Loss graph:
+![](graphs/loss_graph.PNG)
+
 Fine tuning model by changing hyperparameters in `config.py`
 
 ### Testing
