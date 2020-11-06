@@ -34,12 +34,12 @@ Fine tuning model by changing hyperparameters in `config.py`
 
 ### Testing
 On the assumption that you want to predict directly
-```bash
-python test.py --review "this is the worst thing i\'ve ever bought"
-```
-Output
-```python
-'this is the worst thing i've ever bought' is NEGATIVE 82.63011127710342%
-```
+
+    $ python test.py --review "this is the worst thing i\'ve ever bought"
+  
+Output:
+
+    $ 'this is the worst thing i've ever bought' is NEGATIVE 82.63011127710342%
+
 
 
