@@ -2,7 +2,7 @@
 A sentiment analysis implementation on the [Amazon fine food reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews) dataset.
 
 ### Overview 
-<p> In this implementation, i used pretrained word embeddings [GloVe 100d](https://nlp.stanford.edu/projects/glove/) as the input of my deep learning model using Bidirectional LSTM. </p>
+In this implementation, i used pretrained word embeddings [GloVe 100d](https://nlp.stanford.edu/projects/glove/) as the input of my deep learning model using Bidirectional LSTM. 
 <p> Created by @ngoquanghuy99 </p> 
 <p> Email: ngoquanghuy1999lp@gmail.com </p> 
 
