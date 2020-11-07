@@ -3,6 +3,8 @@ A sentiment analysis implementation on the [Amazon fine food reviews](https://ww
 
 ### Overview 
 In this implementation, i used pretrained word embeddings [GloVe 100d](https://nlp.stanford.edu/projects/glove/) as the input of my deep learning model using Bidirectional LSTM.
+Created by @ngoquanghuy99
+Email: ngoquanghuy1999lp@gmail.com
 
 ### Results on testing set
 [Download model](https://github.com/ngoquanghuy99/Sentiment-classificatioin-of-Amazon-fine-food-reviews/blob/main/models/1stmodel.h5)
