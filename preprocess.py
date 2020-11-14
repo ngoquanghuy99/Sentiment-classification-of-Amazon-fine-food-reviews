@@ -84,21 +84,3 @@ def load_data():
   y_test = np.array(y_test)
 
   return x_train, y_train, x_val, y_val, x_test, y_test, word_index
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
