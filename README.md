@@ -20,13 +20,13 @@ In this implementation, i used pretrained word embeddings [GloVe 100d](https://n
 #### Requirements
 - tensorflow>=2.3.1
 - keras>=2.4.3
-```bash
-pip3 install requirements.txt
-```
+   
+      $ pip3 install -r requirements.txt
+    
 ### Training
-```bash
-python train.py
-```
+
+    $ python train.py
+
 #### Accuracy graph:
 ![](graphs/acc_graph.PNG)
 #### Loss graph:
